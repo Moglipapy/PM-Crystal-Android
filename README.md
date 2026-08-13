@@ -11,6 +11,8 @@ Le jeu original reste autoritaire pour les combats, les scripts, les événement
 3. Si Android bloque l'installation, autorisez temporairement **Installer des applications inconnues** pour votre navigateur ou votre gestionnaire de fichiers.
 4. Confirmez avec **Installer**, puis lancez le jeu.
 
-L'APK cible les appareils Android 64 bits ARM (`arm64-v8a`). Pour installer une mise à jour sans perdre les données, installez le nouvel APK par-dessus l'ancien sans désinstaller l'application.
+L'APK cible les appareils Android 64 bits ARM (`arm64-v8a`). Pour installer une mise à jour sans perdre les données, installez le nouvel APK directement par-dessus l'ancien sans désinstaller l'application.
+
+Le launcher `PM_CRYSTAL` retrouve automatiquement les profils français et leurs sauvegardes créés par les versions précédentes. Il permet de sélectionner, créer, renommer ou supprimer un profil avant de jouer.
 
 > Projet non officiel, sans affiliation avec Nintendo, Game Freak ou The Pokémon Company.
