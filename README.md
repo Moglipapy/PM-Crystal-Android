@@ -6,7 +6,7 @@ Le jeu original reste autoritaire pour les combats, les scripts, les événement
 
 Le launcher permet de choisir la version anglaise ou française. Les profils et sauvegardes restent séparés par langue et sont compatibles avec les précédentes versions de l’application.
 
-La version 13 finalise la présentation mobile : le launcher affiche désormais le logo et le nom **PM CRYSTAL**, avec des cartes et boutons tactiles plus lisibles. Le menu en jeu de la version 12 est conservé sans modification : vitesse, confort visuel, QoL et sauvegardes d’état restent prioritaires, avec les actions **Reprendre**, **Launcher** et **Quitter proprement** toujours visibles. Le correctif Multi-EXP reste actif.
+La version 14 conserve le launcher **PM CRYSTAL**, le menu tactile, le Multi-EXP et les transitions de combat validées. Elle étend désormais correctement les bâtiments, arènes, gates, grottes et donjons : les 388 cartes des ROM française et anglaise ont été vérifiées, sans inventer de pièces ni de connexions.
 
 ## Installation sur Android
 
