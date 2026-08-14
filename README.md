@@ -6,7 +6,7 @@ Le jeu original reste autoritaire pour les combats, les scripts, les événement
 
 Le launcher permet de choisir la version anglaise ou française. Les profils et sauvegardes restent séparés par langue et sont compatibles avec les précédentes versions de l’application.
 
-La version 12 réorganise entièrement le menu en jeu pour le tactile : vitesse, confort visuel et QoL sont accessibles immédiatement, les sauvegardes d’état disposent de gros boutons explicites, et les réglages techniques sont rangés dans une section avancée repliable. Les actions **Reprendre**, **Launcher** et **Quitter proprement** restent toujours visibles. Le correctif Multi-EXP de la version 11 est conservé.
+La version 13 finalise la présentation mobile : le launcher affiche désormais le logo et le nom **PM CRYSTAL**, avec des cartes et boutons tactiles plus lisibles. Le menu en jeu de la version 12 est conservé sans modification : vitesse, confort visuel, QoL et sauvegardes d’état restent prioritaires, avec les actions **Reprendre**, **Launcher** et **Quitter proprement** toujours visibles. Le correctif Multi-EXP reste actif.
 
 ## Installation sur Android
 
