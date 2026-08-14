@@ -6,7 +6,7 @@ Le jeu original reste autoritaire pour les combats, les scripts, les événement
 
 Le launcher permet de choisir la version anglaise ou française. Les profils et sauvegardes restent séparés par langue et sont compatibles avec les précédentes versions de l’application.
 
-La version 17 conserve le launcher **PM CRYSTAL**, le menu tactile, le Multi-EXP et la couverture complète des 388 cartes. Elle restaure également les blocs intérieurs modifiés par Crystal — notamment le lit et le poster de la chambre — et maintient les actions fixes du menu dans la zone tactile sûre Android. Les combats sauvages, de dresseurs et de champions conservent leur transition native plein écran validée.
+La version 18 conserve le launcher **PM CRYSTAL**, le menu tactile, le Multi-EXP et la couverture complète des 388 cartes. Elle restaure également les blocs intérieurs modifiés par Crystal — notamment le lit et le poster de la chambre. Dans le menu natif, **Reprendre**, **Quitter proprement** et **Revenir au launcher** sont désormais de grands boutons fixes placés en haut, hors de toute zone défilante ou barre gestuelle Android. Les combats sauvages, de dresseurs et de champions conservent leur transition native plein écran validée.
 
 ## Installation sur Android
 
