@@ -6,6 +6,8 @@ Le jeu original reste autoritaire pour les combats, les scripts, les événement
 
 Le launcher permet de choisir la version anglaise ou française. Les profils et sauvegardes restent séparés par langue et sont compatibles avec les précédentes versions de l’application.
 
+La version 10 corrige la distribution Multi-EXP à 50 % et 100 % sur les versions française et anglaise, sans modifier l’équipe ni les gains du participant.
+
 ## Installation sur Android
 
 1. Téléchargez [`PM-Crystal-Android.apk`](./PM-Crystal-Android.apk). Sur GitHub, ouvrez le fichier puis utilisez **Download raw file**.
