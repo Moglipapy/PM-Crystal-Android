@@ -6,7 +6,7 @@ Le jeu original reste autoritaire pour les combats, les scripts, les événement
 
 Le launcher permet de choisir la version anglaise ou française. Les profils et sauvegardes restent séparés par langue et sont compatibles avec les précédentes versions de l’application.
 
-La version 15 conserve le launcher **PM CRYSTAL**, le menu tactile, le Multi-EXP, les transitions de combat validées et la couverture complète des 388 cartes. Pendant les introductions de dresseurs et de champions, la couleur de fond du combat reste maintenant stable autour de l’image Game Boy au lieu de repasser durablement au noir.
+La version 16 conserve le launcher **PM CRYSTAL**, le menu tactile, le Multi-EXP et la couverture complète des 388 cartes. Les combats sauvages, de dresseurs et de champions utilisent désormais tous la transition native plein écran : le décor est figé, le masque noir reste monotone et aucun PNJ ne peut réapparaître au-dessus de l’effet.
 
 ## Installation sur Android
 
