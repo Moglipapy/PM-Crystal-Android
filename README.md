@@ -1,25 +1,55 @@
-# Pokémon Cristal — Port Android portrait
+# PM Crystal Android
 
-Ce dépôt distribue une version Android de Pokémon Cristal adaptée aux écrans de téléphone.
+**Pokémon Cristal repensé pour jouer confortablement sur un téléphone Android, en français ou en anglais.**
 
-Le jeu original reste autoritaire pour les combats, les scripts, les événements, les sauvegardes, l’inventaire, l’équipe et la progression. La présentation Android ajoute notamment un affichage vertical, un overworld étendu, des commandes tactiles et un menu QoL natif.
+[![Télécharger l’APK](https://img.shields.io/badge/Télécharger-PM--Crystal--Android.apk-7c4dff?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Moglipapy/PM-Crystal-Android/raw/refs/heads/main/PM-Crystal-Android.apk)
 
-Le launcher permet de choisir la version anglaise ou française. Les profils et sauvegardes restent séparés par langue et sont compatibles avec les précédentes versions de l’application.
+PM Crystal conserve le fonctionnement original de Pokémon Cristal — combats, scripts, événements, progression, audio, horloge et sauvegardes — tout en proposant une présentation verticale adaptée aux smartphones.
 
-La version 25 conserve le launcher **PM CRYSTAL**, la couverture complète des 388 cartes, les sauvegardes d’état sûres et les transitions de combat plein écran déjà validées. Le retour d’un combat vers la carte utilise désormais un voile blanc plein écran stable, attend une scène de destination valide et rafraîchit la carte sous le voile avant de la révéler. Le saut d’image final est ainsi supprimé sans modifier la transition d’entrée ni la simulation du jeu.
+## Fonctionnalités principales
 
-Le Multi-EXP mobile se règle directement avec trois grands boutons **OFF / 50 % / 100 %** et s'applique immédiatement à la session, même si Android refuse temporairement l'écriture du fichier QoL. Le menu affiche aussi le résultat du dernier K.O. pour confirmer clairement si les réservistes étaient éligibles et si la distribution a abouti.
-
-À 100 %, les réservistes passent dans la boucle d'EXP originale de Pokémon Cristal : le jeu affiche lui-même le message de gain, anime la barre d'EXP et gère niveaux, capacités et évolutions. La v25 conserve la validation corrigée des données réellement lues par cette routine : les Œufs et Pokémon K.O. à 0 PV restent exclus sans invalider l'équipe, y compris avec les représentations canoniques, anciennes ou importées d'un Œuf. Les Pokémon vivants restent strictement contrôlés. Les tests couvrent également un sentinel obsolète et des vues d'espèce différentes mais valides.
+- affichage vertical et overworld étendu ;
+- launcher permettant de choisir **Français** ou **English** ;
+- profils et sauvegardes séparés pour chaque langue ;
+- contrôles tactiles adaptés au téléphone ;
+- transitions et présentation des combats adaptées au format portrait ;
+- menu de confort avec options QoL, Multi-EXP et sauvegardes d’état.
 
 ## Installation sur Android
 
-1. Téléchargez [`PM-Crystal-Android.apk`](./PM-Crystal-Android.apk). Sur GitHub, ouvrez le fichier puis utilisez **Download raw file**.
-2. Ouvrez l’APK depuis l’application **Fichiers** ou depuis la notification de téléchargement.
-3. Si Android bloque l’installation, autorisez temporairement **Installer des applications inconnues** pour votre navigateur ou votre gestionnaire de fichiers.
-4. Installez directement cette version par-dessus l’ancienne. **Ne désinstallez pas l’application**, afin de conserver ses profils et sauvegardes.
-5. Lancez `PM_CRYSTAL`, choisissez **English** ou **Français**, sélectionnez un profil puis vérifiez la ROM correspondante lorsque le launcher le demande.
+### Première installation
 
-L’APK cible les appareils Android ARM 64 bits (`arm64-v8a`). Son identifiant, sa signature, son logo et ses chemins de sauvegarde restent ceux de l’application précédente.
+1. Appuyez sur le bouton **Télécharger** en haut de cette page.
+2. Ouvrez le fichier `PM-Crystal-Android.apk` une fois le téléchargement terminé.
+3. Si Android le demande, autorisez votre navigateur ou votre application **Fichiers** à installer des applications inconnues.
+4. Appuyez sur **Installer**, puis ouvrez **PM Crystal**.
+5. Dans le launcher, choisissez **Français** ou **English**, créez ou sélectionnez un profil, puis indiquez votre propre ROM compatible lorsque l’application la demande.
 
-> Projet non officiel, sans affiliation avec Nintendo, Game Freak ou The Pokémon Company. Vous devez posséder une ROM compatible issue de votre propre cartouche.
+> L’APK est prévu pour les appareils Android ARM 64 bits (`arm64-v8a`). La ROM n’est pas fournie : vous devez utiliser une copie compatible provenant de votre propre cartouche.
+
+### Mise à jour d’une version existante
+
+1. Téléchargez le nouvel APK.
+2. Installez-le directement par-dessus l’ancienne version.
+3. **Ne désinstallez pas l’application avant la mise à jour**, sinon Android peut supprimer les profils et sauvegardes stockés par l’application.
+
+L’identifiant de l’application et sa signature sont conservés afin qu’Android propose une mise à jour normale.
+
+### En cas de blocage pendant l’installation
+
+- Vérifiez que vous avez bien téléchargé le fichier `.apk` complet.
+- Autorisez temporairement **Installer des applications inconnues** pour l’application ayant ouvert le fichier.
+- Si Android indique que l’application est incompatible, vérifiez que votre appareil utilise bien une architecture ARM 64 bits.
+- Si une ancienne version est déjà installée, ne la supprimez pas : réessayez simplement l’installation du nouvel APK par-dessus.
+
+## Remerciements
+
+Un énorme merci à [arcanite24](https://github.com/arcanite24) et aux contributeurs de [gb-recompiled](https://github.com/arcanite24/gb-recompiled), sans qui ce projet n’existerait tout simplement pas, ainsi qu’à la communauté [pret/pokecrystal](https://github.com/pret/pokecrystal) pour le travail colossal de rétro-ingénierie et de documentation de Pokémon Cristal.
+
+Merci également à [qwilvove/pokecrystal-fr](https://github.com/qwilvove/pokecrystal-fr) pour le travail sur la version française, à [PocketArch](https://github.com/stunrelay/PocketArch) pour les contrôles tactiles, et à [Gen1Recomp](https://github.com/bryanthaboi/gen1recomp), qui m’a donné envie au départ d’essayer d’adapter la deuxième génération au format téléphone.
+
+Merci enfin à toutes les personnes qui testent le projet, signalent les problèmes et contribuent à l’améliorer.
+
+## Avertissement
+
+Projet non officiel, sans affiliation avec Nintendo, Game Freak ou The Pokémon Company. Aucun fichier de ROM n’est distribué dans ce dépôt.
