@@ -6,7 +6,7 @@ Le jeu original reste autoritaire pour les combats, les scripts, les événement
 
 Le launcher permet de choisir la version anglaise ou française. Les profils et sauvegardes restent séparés par langue et sont compatibles avec les précédentes versions de l’application.
 
-La version 20 conserve le launcher **PM CRYSTAL**, la couverture complète des 388 cartes, les sauvegardes d’état sûres et les transitions de combat plein écran déjà validées. Le Multi-EXP mobile se règle maintenant directement avec trois grands boutons **OFF / 50 % / 100 %** : la valeur est enregistrée puis relue immédiatement, et le menu confirme clairement qu’elle sera active au prochain K.O. Des combats réels à deux Pokémon valident la distribution aux réservistes sur les ROM anglaise et française.
+La version 21 conserve le launcher **PM CRYSTAL**, la couverture complète des 388 cartes, les sauvegardes d’état sûres et les transitions de combat plein écran déjà validées. Le Multi-EXP mobile se règle directement avec trois grands boutons **OFF / 50 % / 100 %**. À 100 %, les réservistes passent désormais dans la boucle d’EXP originale de Pokémon Cristal : le jeu affiche lui-même le message de gain, anime la barre d’EXP et gère niveaux, capacités et évolutions. Des combats réels à deux Pokémon valident les gains EN `265 / 265` et FR `274 / 274`.
 
 ## Installation sur Android
 
